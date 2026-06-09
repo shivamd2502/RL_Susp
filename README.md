@@ -202,11 +202,11 @@ Additionally, SAC's smooth, proportional damping adjustments are more compatible
 If you use this code or find this work useful, please cite:
 
 ```bibtex
-@inproceedings{mundada2024drl_suspension,
+@inproceedings{.......,
   title     = {Comparative Deep Reinforcement Learning Control of Active Suspension Systems Using DDPG and SAC},
   author    = {Mundada, Kapil and Dapkekar, Shivam and Deshpande, Raghav},
   booktitle = {Proceedings of [Conference Name]},
-  year      = {2024},
+  year      = {........},
   institution = {Vishwakarma Institute of Technology, Pune}
 }
 ```
