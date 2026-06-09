@@ -1,8 +1,6 @@
 # Comparative Deep Reinforcement Learning Control of Active Suspension Systems Using DDPG and SAC
 
-> **Published paper** · Department of Instrumentation and Control Engineering, Vishwakarma Institute of Technology, Pune
 
----
 
 ## Overview
 
@@ -124,26 +122,7 @@ Class E is 64× rougher than Class B.
 
 ---
 
-## Repository Structure
 
-```
-.
-├── envs/
-│   └── quarter_car_env.py      # 2-DOF quarter-car physics environment
-├── models/
-│   ├── ddpg.py                 # DDPG actor-critic networks and training loop
-│   └── sac.py                  # SAC actor-critic networks and training loop
-├── utils/
-│   ├── road_profile.py         # ISO 8608 road profile generation
-│   ├── replay_buffer.py        # Experience replay buffer
-│   └── noise.py                # Ornstein-Uhlenbeck noise for DDPG
-├── train.py                    # Training entry point
-├── evaluate.py                 # Multi-class evaluation script
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Installation
 
